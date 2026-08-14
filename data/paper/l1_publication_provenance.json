@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "compact_table": {
+    "path": "data/paper/l1_small_mu_direct_errors.csv",
+    "sha256": "3017ed3ca376a2b3456297b888828f29bfac9ffc2b41c36739a19766b70c3675",
+    "row_count": 36,
+    "columns": [
+      "solution",
+      "solution_label",
+      "mu",
+      "clean_E3",
+      "perturbed_mean_E3",
+      "perturbed_sample_sd_E3",
+      "seed_count"
+    ]
+  },
+  "source_artifacts": {
+    "base": {
+      "artifact_id": "moc_noisy_fullrank_l1_formal_20260812_r4",
+      "artifact_manifest_sha256": "51841e88cde34b53a14942742be8fb93f07e683986e1c8190094fe46798bc33b",
+      "source_table": "raw.csv",
+      "clean_column": "B3",
+      "perturbed_column": "total_E3",
+      "mu": [
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.5,
+        2.0
+      ]
+    },
+    "small_mu_extension": {
+      "artifact_id": "moc_noisy_fullrank_l1_small_mu_extension_20260813_r1",
+      "artifact_manifest_sha256": "3bcc4b7eef118b0601575f49fdcf05d34ef2e2391b8f00e4542c2de3dbb22761",
+      "source_table": "raw.csv",
+      "clean_column": "clean_E3",
+      "perturbed_column": "perturbed_E3",
+      "mu": [
+        0.03125,
+        0.0625,
+        0.125
+      ]
+    }
+  },
+  "aggregation": {
+    "error_metric": "direct relative E3",
+    "noise_level_eta": 0.0001,
+    "cell_width_hQ": 0.025,
+    "seeds": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ],
+    "clean_E3": "the common unperturbed value across the 20 paired seed rows",
+    "perturbed_mean_E3": "arithmetic mean across the 20 paired seed rows",
+    "perturbed_sample_sd_E3": "sample standard deviation across the same 20 rows",
+    "sample_standard_deviation_ddof": 1,
+    "uncertainty_band": "perturbed_mean_E3 plus or minus perturbed_sample_sd_E3"
+  },
+  "reference_output": {
+    "filename": "l1_small_mu_direct_errors.png",
+    "sha256": "ce141cc5a79e3a87e0b4b477292eeadb039f188f254df69c4392234abcac079e"
+  }
+}

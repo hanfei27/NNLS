@@ -1,0 +1,33 @@
+{
+  "base_L8_error_scope": "all 1616 E_L8 entries loaded exactly from the formal CSV; independent full-box recomputation performed for one representative per design",
+  "completed_parameter_sets": 101,
+  "completed_solution_norm_cases": 1616,
+  "criterion": "maximum abs(E_L10-E_L9)/E_L10 <= 0.01 over 101 designs, four solutions, and E0 through E3",
+  "formal_source_manifest_verified": true,
+  "maximum_solve_identity_relative_difference": 0.0,
+  "representative_L8_maximum_relative_difference": 0.0,
+  "solve_identity_tolerance": 1e-10,
+  "solver_identity_scope": "all 101 parameter sets and four right-hand sides",
+  "status": "pass",
+  "tolerance": 0.01,
+  "worst_L8_to_L9": {
+    "E_L10": 7.398183176784871e-07,
+    "E_L8": 7.396261684148851e-07,
+    "E_L9": 7.398180137336525e-07,
+    "norm": "E0",
+    "parameter_design": "random_dirs_uniform_bias",
+    "relative_change_L8_to_L9": 0.00025931420323112574,
+    "seed": 1,
+    "solution": "w10_tanh_mix"
+  },
+  "worst_L9_to_L10": {
+    "E_L10": 7.398183176784871e-07,
+    "E_L8": 7.396261684148851e-07,
+    "E_L9": 7.398180137336525e-07,
+    "norm": "E0",
+    "parameter_design": "random_dirs_uniform_bias",
+    "relative_change_L9_to_L10": 4.1083713031304893e-07,
+    "seed": 1,
+    "solution": "w10_tanh_mix"
+  }
+}

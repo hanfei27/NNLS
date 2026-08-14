@@ -1,0 +1,86 @@
+{
+  "coverage": {
+    "clean": "9 mu x 4 solutions x E0--E3",
+    "perturbed_individual_E3": "9 mu x 20 directions x 4 solutions",
+    "perturbed_mean_E3": "9 mu x 4 solutions"
+  },
+  "dimension": 2,
+  "input_manifests": {
+    "base_manifest_sha256": "51841e88cde34b53a14942742be8fb93f07e683986e1c8190094fe46798bc33b",
+    "small_mu_manifest_sha256": "3bcc4b7eef118b0601575f49fdcf05d34ef2e2391b8f00e4542c2de3dbb22761"
+  },
+  "maximum_relative_changes": {
+    "clean_E3_L8_to_L9": 2.228e-08,
+    "clean_E3_L9_to_L10": 1.85e-11,
+    "clean_all_orders_L8_to_L9": 2.20815124e-05,
+    "clean_all_orders_L9_to_L10": 3.0314351e-08,
+    "perturbed_individual_E3_L8_to_L9": 1.11445707e-09,
+    "perturbed_individual_E3_L9_to_L10": 9.23513996e-13,
+    "perturbed_mean_E3_L8_to_L9": 9.21868776e-10,
+    "perturbed_mean_E3_L9_to_L10": 5.35839582e-13
+  },
+  "measure": "standard Gaussian N(0,I_2)",
+  "mu": [
+    0.03125,
+    0.0625,
+    0.125,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0
+  ],
+  "noise": {
+    "directions_per_solution": 20,
+    "eta": 0.0001,
+    "normalization": "sum_i omega_i z_i^2=1",
+    "seeds": [
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39
+    ]
+  },
+  "operator": "-Delta u + x dot grad u + u",
+  "persistence_note": "The completed audit retained the registered maxima; immutable input coefficient artifacts are identified by their manifests.",
+  "quadrature": {
+    "cell_width_hQ": 0.05,
+    "order_per_cell_per_axis": 4,
+    "radii_L": [
+      8.0,
+      9.0,
+      10.0
+    ],
+    "weights": "tensor Gauss-Legendre weights times standard Gaussian density"
+  },
+  "residual_rule": {
+    "fill_upper_H": 0.6443794794178402,
+    "n_collocation_N": 624
+  },
+  "scientific_scope": "fixed J=272,N=624 nine-mu l1 figure; the stored coefficient vectors were held fixed while evaluating the added square shells",
+  "status": "pass",
+  "trial_space": {
+    "activation": "RePU t_+^4",
+    "n_bias": 17,
+    "n_directions": 16,
+    "physical_radius_R": 5.5,
+    "width_J": 272
+  }
+}

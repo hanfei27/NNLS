@@ -1,0 +1,2 @@
+# Preserve released numerical tables byte-for-byte.
+data/paper/*.csv -text -diff

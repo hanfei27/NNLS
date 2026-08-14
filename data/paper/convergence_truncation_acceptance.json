@@ -1,0 +1,102 @@
+{
+  "gates": [
+    {
+      "gate": "coverage_90_240_120",
+      "passed": true
+    },
+    {
+      "gate": "all_adjacent_radius_changes_le_1_percent",
+      "passed": true
+    },
+    {
+      "gate": "L8_formal_identity",
+      "passed": true
+    },
+    {
+      "gate": "formal_manifests",
+      "passed": true
+    },
+    {
+      "gate": "l1_E3_truncation",
+      "passed": true
+    }
+  ],
+  "levels": [
+    {
+      "level_index": 3,
+      "n_bias": 21,
+      "n_collocation_N": 1680,
+      "n_directions": 20,
+      "width_J": 420
+    },
+    {
+      "level_index": 4,
+      "n_bias": 25,
+      "n_collocation_N": 2380,
+      "n_directions": 24,
+      "width_J": 600
+    },
+    {
+      "level_index": 5,
+      "n_bias": 33,
+      "n_collocation_N": 4128,
+      "n_directions": 32,
+      "width_J": 1056
+    },
+    {
+      "level_index": 6,
+      "n_bias": 41,
+      "n_collocation_N": 6392,
+      "n_directions": 40,
+      "width_J": 1640
+    },
+    {
+      "level_index": 7,
+      "n_bias": 49,
+      "n_collocation_N": 9120,
+      "n_directions": 48,
+      "width_J": 2352
+    },
+    {
+      "level_index": 8,
+      "n_bias": 57,
+      "n_collocation_N": 12320,
+      "n_directions": 56,
+      "width_J": 3192
+    }
+  ],
+  "maximum_L8_reproduction_relative_difference": {
+    "level_index": 3,
+    "passed": true,
+    "recomputed_E8": 2.1743701469123652e-06,
+    "reference_E8": 2.1743701469123652e-06,
+    "relative_difference": 0.0,
+    "sobolev_order_s": 0,
+    "solution": "v8_bilinear_broad_gaussian"
+  },
+  "maximum_relative_change_L8_to_L9": {
+    "E_a": 2.0094177849266467e-05,
+    "E_b": 2.0111232376555645e-05,
+    "level_index": 8,
+    "passed_1_percent": true,
+    "radius_a": 8.0,
+    "radius_b": 9.0,
+    "relative_change_abs_over_E_b": 0.0008480100557666009,
+    "sobolev_order_s": 0,
+    "solution": "u5",
+    "width_J": 3192
+  },
+  "maximum_relative_change_L9_to_L10": {
+    "E_a": 2.0111232376555645e-05,
+    "E_b": 2.0111272702597728e-05,
+    "level_index": 8,
+    "passed_1_percent": true,
+    "radius_a": 9.0,
+    "radius_b": 10.0,
+    "relative_change_abs_over_E_b": 2.005146202303073e-06,
+    "sobolev_order_s": 0,
+    "solution": "u5",
+    "width_J": 3192
+  },
+  "status": "pass"
+}

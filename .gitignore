@@ -1,0 +1,30 @@
+.DS_Store
+.vscode/
+.idea/
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+
+# Numerical runs and complete historical artifacts remain local. Curated paper
+# data live in data/paper/.
+code/results/
+results/
+data/artifacts/
+tmp/
+*.stdout.txt
+*.stderr.txt
+*.time.txt
+
+# Private manuscript sources remain local and are never part of this release.
+/paper/
+
+*.swp
+*~

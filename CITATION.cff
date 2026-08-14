@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this software or its numerical data, please cite the accompanying manuscript."
+title: "Gaussian-Hermite RePU least-squares experiments"
+type: software
+authors:
+  - family-names: Zhou
+    given-names: Hanfei
+  - family-names: Shi
+    given-names: Lei
+version: 0.1.0
+date-released: 2026-08-15
