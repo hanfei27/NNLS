@@ -2,8 +2,8 @@
 
 This repository is the compact companion artifact for the manuscript
 
-> **Gaussian--Hermite inverse inequalities, optimal Sobolev approximation,
-> and full-space PDE least squares for frozen shallow RePU networks**
+> **Convergence of Deterministic Shallow RePU Networks on $\mathbb{R}^d$:
+> Stability, Simultaneous Approximation, and Computation**
 
 It contains the numerical tables used by the paper and the code needed to
 regenerate four publication figures. The manuscript source, bibliography,
