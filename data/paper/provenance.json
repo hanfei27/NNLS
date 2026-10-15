@@ -1,0 +1,17 @@
+{
+  "paper": "https://arxiv.org/abs/2610.14457v1",
+  "description": "Unchanged numerical values selected from the original experiment records. Paths identify source artifacts; they are not runtime dependencies.",
+  "source_sha256": {
+    "github_release/data/paper/five_solution_convergence.csv": "8af04361f9f2d5151dc85f615cbc7cca091acdcc2c4ea922a2239ae36336b16e",
+    "github_release/data/paper/parameter_design_composite_revaluation.csv": "ebae1bef71c8b5a9cac96f35a0c9395f7054afbaee7c69448da7d1f7031f9090",
+    "github_release/data/paper/inverse_collision_raw.csv": "5f8bf1deee85ba28716e29e4cffa1d68a8a7acc139bfb2b66fca8706de9aa84f",
+    "code/results/random_physical_sampling_20260830_r3/runs.csv": "9247a474ebf4bd965fa21daa4a7e627914f68e06c846f513e965775fc56d2e2c",
+    "github_release/data/paper/oversampling_core.csv": "480aacf74e8b1198c85d6eb7a1db92393f08d2ad6e5aa22b5f65988d470e117b",
+    "code/results/moc_experiment_completion_formal_20260810_r3/oversampling_composite_revaluation.csv": "196120a83a6bff322f770252aaaa83705504fdcec24e7cedb6c4187a22715cd2",
+    "github_release/data/paper/antipodal_core.csv": "07cd083d6221ba526c11ba6e11cc685461e1811b7683e2d379fccf1f0ff99f50"
+  },
+  "evaluation": {
+    "convergence_and_parameters": "[-8,8]^2, cell width 0.05, Gauss order 4",
+    "sampling": "[-8,8]^2, cell width 0.10, Gauss order 4"
+  }
+}
