@@ -1,11 +1,27 @@
 cff-version: 1.2.0
 message: "If you use this software or its numerical data, please cite the accompanying manuscript."
-title: "Gaussian-Hermite RePU least-squares experiments"
+title: "Convergence of Least Squares Methods for PDEs on R^d with Shallow ReLU^k Networks"
 type: software
 authors:
-  - family-names: Zhou
-    given-names: Hanfei
+  - family-names: Mao
+    given-names: Tong
   - family-names: Shi
     given-names: Lei
+  - family-names: Zhou
+    given-names: Hanfei
 version: 0.1.0
 date-released: 2026-08-15
+repository-code: "https://github.com/hanfei27/NNLS"
+preferred-citation:
+  type: article
+  title: "Convergence of Least Squares Methods for PDEs on R^d with Shallow ReLU^k Networks"
+  authors:
+    - family-names: Mao
+      given-names: Tong
+    - family-names: Shi
+      given-names: Lei
+    - family-names: Zhou
+      given-names: Hanfei
+  year: 2026
+  doi: "10.48550/arXiv.2610.14457"
+  url: "https://arxiv.org/abs/2610.14457"
