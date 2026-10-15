@@ -299,5 +299,3 @@ def generalized_metrics(
             "proof_generalized_rayleigh": +proof_quotient,
             "proof_norm_ratio": +mp.sqrt(proof_quotient),
         }
-
-
