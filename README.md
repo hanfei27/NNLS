@@ -6,5 +6,3 @@ Numerical code and data accompanying the paper:
 > Tong Mao, Lei Shi, and Hanfei Zhou.
 
 [arXiv:2610.14457](https://arxiv.org/abs/2610.14457) · [PDF](https://arxiv.org/pdf/2610.14457)
-
-See [reproducibility notes](docs/REPRODUCIBILITY.md) for the numerical setup and figure reproduction.
